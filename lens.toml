@@ -1,0 +1,37 @@
+# The Rhizome lens (ocoeco SPEC.md section 8).
+schema = 1
+
+[lens]
+title = "Rhizome"
+goal = "stop managing software, start growing it"
+
+[family]
+owners = ["rhizome-oco"]
+projects = ["git-rhizoid/git-rhizoid.github.io"]   # Rhizoid, gathered where it lives
+
+[[view]]
+id = "index"
+title = "How close we are"
+kind = "path"
+subject = "rhizome"
+
+[[view]]
+id = "ideas"
+title = "Ideas"
+kind = "ideas"
+lead = "One move, repeated: replace a guess with a calculation."
+
+[[view]]
+id = "backlog"
+title = "Backlog"
+kind = "backlog"
+
+[[view]]
+id = "log"
+title = "Log"
+kind = "log"
+
+[[view]]
+id = "work"
+title = "Made by work"
+kind = "heartbeat"

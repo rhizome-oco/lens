@@ -1,0 +1,13 @@
+# This repository's mark: a lens - the grand view of Rhizome.
+schema = 1
+
+[project]
+id = "rhizome-oco/lens"
+name = "Rhizome: stop managing software, start growing it"
+title = "Rhizome lens"
+kind = "lens"
+parent = "open-commons-observatory"
+
+[exports]
+translations = "translations.json"
+session_log = "session_log.json"
