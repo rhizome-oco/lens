@@ -9,15 +9,21 @@ goal = "stop managing software, start growing it"
 owners = ["rhizome-oco"]
 projects = ["git-rhizoid/git-rhizoid.github.io"]   # Rhizoid, gathered where it lives
 
-[[view]]
+[[view]]   # the lens opens with the idea of the project it is about - written by that project
 id = "index"
+title = "The idea"
+kind = "idea"
+project = "rhizome-oco/rhizome"
+
+[[view]]
+id = "path"
 title = "How close we are"
 kind = "path"
 subject = "rhizome"
 
 [[view]]
 id = "ideas"
-title = "Ideas"
+title = "Concepts and decisions"
 kind = "ideas"
 lead = "One move, repeated: replace a guess with a calculation."
 
