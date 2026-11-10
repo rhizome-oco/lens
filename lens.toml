@@ -15,6 +15,13 @@ title = "The idea"
 kind = "idea"
 project = "rhizome-oco/rhizome"
 
+[[view]]   # the signature view: the whole chain on one page
+id = "essence"
+title = "Essence"
+kind = "essence"
+project = "rhizome-oco/rhizome"
+subject = "rhizome"
+
 [[view]]
 id = "path"
 title = "How close we are"
