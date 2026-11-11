@@ -9,5 +9,6 @@ kind = "lens"
 parent = "open-commons-observatory"
 
 [exports]
+glimpses = "rhizome-oco/glimpses.json"
 translations = "translations.json"
 session_log = "session_log.json"
