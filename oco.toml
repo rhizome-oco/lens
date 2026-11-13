@@ -12,3 +12,8 @@ parent = "open-commons-observatory"
 glimpses = "rhizome-oco/glimpses.json"
 translations = "translations.json"
 session_log = "session_log.json"
+
+# What place this is, and what it gathers: every star of an owner (owner/*), or a star by name.
+[place]
+is = "constellation"
+gathers = ["rhizome-oco/*", "git-rhizoid/git-rhizoid.github.io"]
